@@ -345,6 +345,10 @@ void MainLoop()
 					printf("New grasping force gain: %.1f\n", g_f[0]);
 				}
 				break;
+
+			default:
+				PrintInstruction();
+				break;
 			
 			}
 
@@ -521,7 +525,7 @@ void DestroyBGripAlgorithm()
 void PrintInstruction()
 {
 	printf("--------------------------------------------------\n");
-	printf("myAllegroHand: ");
+	printf("myAllegroGrip: ");
 	printf("%d-dof Gripper, v%i.x\n\n", (GRIPPER_9DOF?9:11), GRIPPER_VERSION);
 
 	printf("Keyboard Commands:\n");
@@ -542,6 +546,11 @@ void PrintInstruction()
 	printf("--------------- DO ACTION ------------------------\n");
 	printf("A: Gravity Compensation\n");
 	printf("G: Graspping\n");
+	printf("\n");
+
+	printf("--------------- ETC  -----------------------------\n");
+	printf("+: Increase grasping force\n");
+	printf("-: Decrease grasping force\n");
 	printf("\n");
 
 	printf("--------------------------------------------------\n\n");
