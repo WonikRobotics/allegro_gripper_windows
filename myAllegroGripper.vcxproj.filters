@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Peak">
+      <UniqueIdentifier>{cd30b1de-4655-4fcc-a7ce-f396249c0bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IXXAT">
+      <UniqueIdentifier>{4834adb5-f628-456e-bfdc-9fde159dc349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ESD">
+      <UniqueIdentifier>{6a4f04e4-0703-4ab5-9b35-7cb454bca30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kvaser">
+      <UniqueIdentifier>{65f7b21b-70c8-4acf-95fe-08d00c995585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NI">
+      <UniqueIdentifier>{1e85e0a6-58fb-42b4-953c-92c264394a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Softing">
+      <UniqueIdentifier>{4a837afe-aad3-42e5-b78c-6bfa3114d365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Peak">
+      <UniqueIdentifier>{b2133351-d3b9-4250-9bad-a91e83ea8fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IXXAT">
+      <UniqueIdentifier>{080997ed-ff5b-43d7-b674-7758edf57767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Softing">
+      <UniqueIdentifier>{f7ca422b-b206-40fd-be55-04c036c4a1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ESD">
+      <UniqueIdentifier>{5f39d420-b213-4e70-a5d9-8bb04f9a63b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kvaser">
+      <UniqueIdentifier>{e144715f-ba1c-4a36-a385-b609abab4aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NI">
+      <UniqueIdentifier>{10b2b5f3-f1fa-47d5-91d3-d362be29f322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serial">
+      <UniqueIdentifier>{c70dced9-0043-4fc8-8f05-ee14c4b23659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serial">
+      <UniqueIdentifier>{a917b093-3236-4489-b2e7-68d868434194}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myAllegroGripper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Peak\canAPI.cpp">
+      <Filter>Source Files\Peak</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IXXAT\canAPI.cpp">
+      <Filter>Source Files\IXXAT</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IXXAT\dialog.cpp">
+      <Filter>Source Files\IXXAT</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IXXAT\select.cpp">
+      <Filter>Source Files\IXXAT</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ESD-CAN\canAPI.cpp">
+      <Filter>Source Files\ESD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kvaser\canAPI.cpp">
+      <Filter>Source Files\Kvaser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NI-CAN\canAPI.cpp">
+      <Filter>Source Files\NI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Softing\canAPI.cpp">
+      <Filter>Source Files\Softing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serial\commAPI.cpp">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serial\crc.cpp">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serial\serial_msg.cpp">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serial\serial_msg_dispatcher.cpp">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serial\serial_port.cpp">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\IXXAT\cancon.rc">
+      <Filter>Source Files\IXXAT</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\IXXAT\cancon.rh">
+      <Filter>Source Files\IXXAT</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\IXXAT\dialog.hpp">
+      <Filter>Source Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IXXAT\select.hpp">
+      <Filter>Source Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\canAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\canDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rDeviceAllegroHandCANDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Peak\PCANBasic.h">
+      <Filter>Header Files\Peak</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\CANtype.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\KLNtype.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\LINtype.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\vci3.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\vciCtrlType.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\vcierr.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\vciguid.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\vciIdType.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\vcinpl.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\vcitype.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IXXAT\vciver.h">
+      <Filter>Header Files\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Softing\Can_def.h">
+      <Filter>Header Files\Softing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Softing\CANL2.H">
+      <Filter>Header Files\Softing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ESD-CAN\ntcan.h">
+      <Filter>Header Files\ESD</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kvaser\canlib.h">
+      <Filter>Header Files\Kvaser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NI-CAN\Nican.h">
+      <Filter>Header Files\NI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\crc.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\serial_msg.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\serial_msg_dispatcher.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\serial_port.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_req.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_res.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_req_set_torque.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_req_config.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_req_set_motion.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_req_set_period.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_req_set_position.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_res_hand_info.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_res_imu.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_res_position.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_res_serial_no.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serial\packet_res_temperature.h">
+      <Filter>Source Files\Serial</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
